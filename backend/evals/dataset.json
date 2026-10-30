@@ -1,0 +1,74 @@
+[
+  {
+    "id": "half-day-loop-hut",
+    "request": "Cerco un giro ad anello di mezza giornata, poco dislivello, con un rifugio per pranzo",
+    "expected_trails": ["tre-cime-loop", "cinque-torri-loop"],
+    "forbidden_trails": ["piz-boe-sass-pordoi", "ferrata-brigata-tridentina"],
+    "expect_question": false,
+    "allowed_filters": ["is_loop", "max_duration_min", "max_elevation_gain_m", "needs_hut"]
+  },
+  {
+    "id": "beginner-ferrata",
+    "request": "Sono principiante, voglio fare una via ferrata in Sella",
+    "expected_trails": [],
+    "forbidden_trails": ["piz-boe-sass-pordoi", "ferrata-brigata-tridentina"],
+    "expect_question": false,
+    "allowed_filters": ["experience", "max_difficulty", "area"]
+  },
+  {
+    "id": "unknown-experience-ferrata",
+    "request": "Voglio fare una ferrata in Sella",
+    "expected_trails": [],
+    "forbidden_trails": ["ferrata-brigata-tridentina"],
+    "expect_question": true,
+    "allowed_filters": ["max_difficulty", "area"]
+  },
+  {
+    "id": "expert-ferrata",
+    "request": "Sono esperto, cerco una ferrata in zona Sella",
+    "expected_trails": ["ferrata-brigata-tridentina"],
+    "forbidden_trails": [],
+    "expect_question": false,
+    "allowed_filters": ["experience", "max_difficulty", "area"]
+  },
+  {
+    "id": "vague-request",
+    "request": "Voglio fare una camminata",
+    "expected_trails": [],
+    "forbidden_trails": [],
+    "expect_question": true,
+    "allowed_filters": []
+  },
+  {
+    "id": "family-easy",
+    "request": "Una passeggiata facile con i bambini, massimo un'ora e mezza",
+    "expected_trails": ["lago-di-braies-loop", "lago-di-carezza"],
+    "forbidden_trails": ["piz-boe-sass-pordoi", "ferrata-brigata-tridentina"],
+    "expect_question": false,
+    "allowed_filters": ["experience", "max_difficulty", "max_duration_min"]
+  },
+  {
+    "id": "cortina-hut",
+    "request": "Sono in zona Cortina, vorrei un'escursione con un rifugio",
+    "expected_trails": ["lago-di-sorapis", "cinque-torri-loop"],
+    "forbidden_trails": ["ferrata-brigata-tridentina"],
+    "expect_question": false,
+    "allowed_filters": ["area", "needs_hut"]
+  },
+  {
+    "id": "val-gardena-short",
+    "request": "Un'escursione panoramica in Val Gardena di massimo 3 ore",
+    "expected_trails": ["seceda-col-raiser"],
+    "forbidden_trails": [],
+    "expect_question": false,
+    "allowed_filters": ["area", "max_duration_min"]
+  },
+  {
+    "id": "expert-summit",
+    "request": "Sono un escursionista esperto, voglio salire su una cima sopra i 3000 metri",
+    "expected_trails": ["piz-boe-sass-pordoi"],
+    "forbidden_trails": [],
+    "expect_question": false,
+    "allowed_filters": ["experience", "max_difficulty"]
+  }
+]
