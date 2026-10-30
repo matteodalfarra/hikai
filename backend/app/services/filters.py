@@ -40,3 +40,22 @@ def search_trails(trails: list[Trail], filters: TrailFilters) -> list[Trail]:
         results.append(trail)
 
     return results
+
+def get_safety_note(filters: TrailFilters) -> str | None:
+    if filters.max_difficulty is None:
+        return None
+
+    max_difficulty = get_max_difficulty(filters)
+    if max_difficulty == filters.max_difficulty:
+        return None
+
+    if filters.experience is None:
+        return (
+            f"Difficulty limited to {max_difficulty} because the user's experience is unknown. "
+            "Ask about their experience before suggesting harder trails."
+        )
+
+    return (
+        f"Difficulty limited to {max_difficulty} because the user is {filters.experience}. "
+        f"Explain that {filters.max_difficulty} trails are not safe for them and suggest easier ones."
+    )
