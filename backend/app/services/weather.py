@@ -37,7 +37,6 @@ def summarize_forecast(hourly: dict) -> dict:
         "afternoon_rain_probability": max_rain,
         "thunderstorm_hours": storm_hours,
         "storm_risk": bool(storm_hours) or max_rain >= RAIN_RISK_PERCENT,
-        "note": "Sky conditions (sun, clouds) are not included in this forecast.",
     }
 
 def get_weather_warnings(summary: dict) -> list[str]:
