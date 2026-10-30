@@ -1,6 +1,6 @@
 from app.schemas.filters import TrailFilters
 from app.schemas.trail import Trail
-from app.services.filters import search_trails
+from app.services.filters import get_safety_note, search_trails
 
 def make_trail(id: str, **fields) -> Trail:
     data = {
@@ -71,3 +71,22 @@ def test_needs_hut():
     trails = [make_trail("hut", hut_names=["Rifugio Pisciadu"]), make_trail("no-hut")]
     result = search_trails(trails, TrailFilters(needs_hut=True))
     assert ids(result) == ["hut"]
+
+def test_no_safety_note_when_difficulty_not_requested():
+    assert get_safety_note(TrailFilters(experience="beginner")) is None
+
+def test_no_safety_note_when_difficulty_is_allowed():
+    filters = TrailFilters(experience="expert", max_difficulty="EEA")
+    assert get_safety_note(filters) is None
+
+def test_safety_note_for_beginner():
+    filters = TrailFilters(experience="beginner", max_difficulty="EEA")
+    note = get_safety_note(filters)
+    assert note is not None
+    assert "beginner" in note
+    assert "limited to E" in note
+
+def test_safety_note_asks_experience_when_unknown():
+    note = get_safety_note(TrailFilters(max_difficulty="EEA"))
+    assert note is not None
+    assert "Ask about their experience" in note
