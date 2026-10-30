@@ -31,6 +31,8 @@ def search_trails(trails: list[Trail], filters: TrailFilters) -> list[Trail]:
             continue
         if filters.max_elevation_gain_m is not None and trail.elevation_gain_m > filters.max_elevation_gain_m:
             continue
+        if filters.min_altitude_m is not None and trail.max_altitude_m < filters.min_altitude_m:
+            continue
         if filters.area is not None and filters.area.lower() not in trail.area.lower():
             continue
         if filters.is_loop is not None and trail.is_loop != filters.is_loop:

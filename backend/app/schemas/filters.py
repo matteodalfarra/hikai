@@ -18,6 +18,10 @@ class TrailFilters(BaseModel):
     max_elevation_gain_m: int | None = Field(
         default=None, description="Max elevation gain in meters. 'Not much' is about 400"
     )
+    min_altitude_m: int | None = Field(
+        default=None,
+        description="Min altitude in meters that the trail must reach. Only set it if the user mentions a height, e.g. 'above 3000 m'",
+    )
     area: str | None = Field(
         default=None, description="Area name. Only set it if the user explicitly names a place"
     )
