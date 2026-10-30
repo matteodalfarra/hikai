@@ -1,0 +1,156 @@
+[
+  {
+    "id": "half-day-loop-hut",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "tre-cime-loop",
+      "cinque-torri-loop"
+    ],
+    "latency_s": 34.79,
+    "input_tokens": 1389,
+    "output_tokens": 396,
+    "answer": "Ecco due opzioni per il tuo giro ad anello di mezza giornata con poco dislivello e la possibilità di pranzare in un rifugio:\n\n1. **Tre Cime di Lavaredo loop**  \n   - **Durata:** 4 ore  \n   - **Dislivello:** 400 metri  \n   - **Descrizione:** Questo percorso classico ti porta intorno alle Tre Cime di Lavaredo, con panorami spettacolari, tra cui la famosa vista della parete nord vicino al Rifugio Locatelli. È molto popolare in estate e offre la possibilità di pranzare in uno dei rifugi lungo il percorso, come Rifugio Auronzo, Rifugio Lavaredo o Rifugio Locatelli.\n\n2. **Cinque Torri loop**  \n   - **Durata:** 1.5 ore  \n   - **Dislivello:** 150 metri  \n   - **Descrizione:** Un breve e facile percorso intorno alle Cinque Torri, con una visita al museo all'aperto dedicato alla Prima Guerra Mondiale. È raggiungibile con la seggiovia e offre la possibilità di pranzare in uno dei rifugi, come Rifugio Scoiattoli o Rifugio Cinque Torri.\n\nEntrambi i percorsi sono adatti a un'escursione di mezza giornata e si adattano bene a chi cerca un'esperienza rilassante con un po' di natura e cultura."
+  },
+  {
+    "id": "beginner-ferrata",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [],
+    "latency_s": 10.88,
+    "input_tokens": 1081,
+    "output_tokens": 144,
+    "answer": "Mi dispiace, non ci sono vie ferrate in Sella adatte ai principianti con difficoltà EE. Le vie ferrate di difficoltà EE richiedono un livello di esperienza e attrezzatura specifiche che non sono adatte ai principianti.\n\nTi suggerisco di considerare vie ferrate con difficoltà inferiore, ad esempio quelle con difficoltà E. Se desideri, posso aiutarti a trovare alcune opzioni più adatte al tuo livello."
+  },
+  {
+    "id": "unknown-experience-ferrata",
+    "answer_ok": false,
+    "filters_ok": false,
+    "passed": false,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": false,
+    "invented_filters": [
+      "max_duration_min",
+      "max_elevation_gain_m"
+    ],
+    "mentioned_trails": [],
+    "latency_s": 8.68,
+    "input_tokens": 1080,
+    "output_tokens": 113,
+    "answer": "Per poter suggerire una ferrata in Sella, vorrei sapere il tuo livello di esperienza (es. principiante, intermedio, esperto). Questo mi aiuterà a proporti un percorso adatto alle tue capacità."
+  },
+  {
+    "id": "expert-ferrata",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "piz-boe-sass-pordoi",
+      "ferrata-brigata-tridentina"
+    ],
+    "latency_s": 15.74,
+    "input_tokens": 1331,
+    "output_tokens": 197,
+    "answer": "Ecco due opzioni per te:\n\n1. **Via ferrata Brigata Tridentina** - Questa ferrata è perfetta per un esperto, con difficoltà EEA e un percorso che richiede attrezzatura specifica. Si trova vicino al Passo Gardena e offre una bella vista sulle montagne circostanti.\n\n2. **Piz Boe da Sass Pordoi** - Sebbene abbia una difficoltà EE (non EEA), è comunque un'esperienza impegnativa e adatta a esperti. Si tratta di un percorso che porta alla vetta del Piz Boe, con panorami spettacolari e un'esperienza unica in alta montagna."
+  },
+  {
+    "id": "vague-request",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [],
+    "latency_s": 7.0,
+    "input_tokens": 493,
+    "output_tokens": 93,
+    "answer": "Vuoi fare una camminata, ma non hai specificato ulteriori dettagli come la durata, la difficoltà o l'area in cui ti piacerebbe camminare. Posso aiutarti a trovare le camminate più adatte a te se mi dici un po' di più. Ti va di indicarmi la durata, la difficoltà o l'area in cui ti piacerebbe camminare?"
+  },
+  {
+    "id": "family-easy",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "lago-di-braies-loop",
+      "lago-di-carezza"
+    ],
+    "latency_s": 16.19,
+    "input_tokens": 1285,
+    "output_tokens": 200,
+    "answer": "Ecco due passeggiate facili e adatte ai bambini, entrambe con una durata inferiore all'ora e mezza:\n\n1. **Lago di Braies lake loop** – Questa passeggiata è un percorso facile intorno al lago di Braies, quasi completamente pianeggiante. È ideale per le famiglie e i principianti, anche se potrebbe essere affollata in estate.\n\n2. **Lago di Carezza short walk** – Questa passeggiata breve intorno al lago di Carezza è perfetta per chi cerca un'escursione molto semplice. Il percorso è breve e offre una bella vista del Latemar in lontananza."
+  },
+  {
+    "id": "cortina-hut",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "lago-di-sorapis",
+      "cinque-torri-loop"
+    ],
+    "latency_s": 23.33,
+    "input_tokens": 1331,
+    "output_tokens": 291,
+    "answer": "Ecco due escursioni che includono un rifugio e si trovano vicino a Cortina:\n\n1. **Lago di Sorapis da Passo Tre Croci**  \n   Questa escursione di 4 ore vi porterà al bellissimo Lago di Sorapis, con vista sulle montagne circostanti. Lungo il percorso si attraversa il Rifugio Vandelli, un punto ideale per una pausa. La difficoltà è moderata e il percorso include alcuni tratti esposti con cavi di sicurezza.\n\n2. **Cinque Torri Loop**  \n   Un breve percorso in loop di circa 1h30, ideale per una passeggiata rilassante. Si può godere di una vista panoramica sulle Cinque Torri e visitare il museo all'aperto dedicato alla Prima Guerra Mondiale. Lungo il percorso si trovano due rifugi: Rifugio Scoiattoli e Rifugio Cinque Torri.\n\nEntrambe le escursioni sono adatte a chi cerca un'esperienza con un rifugio e si trova vicino a Cortina."
+  },
+  {
+    "id": "val-gardena-short",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "seceda-col-raiser"
+    ],
+    "latency_s": 13.57,
+    "input_tokens": 1187,
+    "output_tokens": 166,
+    "answer": "Ecco un'escursione panoramica in Val Gardena che puoi fare in circa 2,5 ore:\n\n1. **Seceda to Col Raiser**  \n   Questa escursione offre splendide vedute sull'Odle Ridge e si svolge principalmente in discesa attraverso prati. È adatta a principianti e offre la possibilità di visitare due rifugi lungo il percorso: Malga Pieralongia e Rifugio Col Raiser.\n\nSe desideri altre opzioni, puoi considerare di allentare il filtro sulla durata massima."
+  },
+  {
+    "id": "expert-summit",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "piz-boe-sass-pordoi"
+    ],
+    "latency_s": 17.21,
+    "input_tokens": 1217,
+    "output_tokens": 213,
+    "answer": "Ecco un'escursione adatta alle tue richieste:\n\n1. **Piz Boe from Sass Pordoi** - Questa escursione è perfetta per un escursionista esperto, poiché si arriva a una cima sopra i 3000 metri (3152 m). La difficoltà è EE, adatta a chi ha esperienza, e si attraversa un terreno roccioso con alcuni tratti di scrambling. L'escursione non è in loop e dura circa 3 ore. Lungo il percorso si possono visitare due rifugi: Rifugio Forcella Pordoi e Capanna Fassa.\n\nSe desideri altre opzioni, puoi indicarmi se preferisci un percorso in loop o con meno dislivello."
+  }
+]

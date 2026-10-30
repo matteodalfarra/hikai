@@ -69,6 +69,6 @@
     "expected_trails": ["piz-boe-sass-pordoi"],
     "forbidden_trails": [],
     "expect_question": false,
-    "allowed_filters": ["experience", "max_difficulty"]
+    "allowed_filters": ["experience", "max_difficulty", "min_altitude_m"]
   }
 ]

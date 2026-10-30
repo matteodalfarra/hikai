@@ -10,6 +10,7 @@ def make_trail(id: str, **fields) -> Trail:
         "difficulty": "E",
         "duration_min": 120,
         "elevation_gain_m": 300,
+        "max_altitude_m": 2000,
         "distance_km": 5.0,
         "is_loop": False,
         "hut_names": [],
@@ -90,3 +91,8 @@ def test_safety_note_asks_experience_when_unknown():
     note = get_safety_note(TrailFilters(max_difficulty="EEA"))
     assert note is not None
     assert "Ask about their experience" in note
+    
+def test_min_altitude():
+    trails = [make_trail("summit", max_altitude_m=3152), make_trail("valley", max_altitude_m=1500)]
+    result = search_trails(trails, TrailFilters(min_altitude_m=3000))
+    assert ids(result) == ["summit"]

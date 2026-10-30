@@ -15,6 +15,7 @@ class Trail(BaseModel):
     difficulty: Difficulty
     duration_min: int
     elevation_gain_m: int
+    max_altitude_m: int
     distance_km: float
     is_loop: bool
     hut_names: list[str]
