@@ -2,6 +2,8 @@ from typing import Literal
 
 from pydantic import BaseModel
 
+Difficulty = Literal["T", "E", "EE", "EEA"]
+
 class Location(BaseModel):
     lat: float
     lon: float
@@ -10,7 +12,7 @@ class Trail(BaseModel):
     id: str
     name: str
     area: str
-    difficulty: Literal["T", "E", "EE", "EEA"]
+    difficulty: Difficulty
     duration_min: int
     elevation_gain_m: int
     distance_km: float
