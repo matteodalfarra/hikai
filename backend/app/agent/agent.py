@@ -1,6 +1,7 @@
 from datetime import date
 
 from langchain.agents import create_agent
+from langchain_core.messages import AIMessageChunk
 
 from app.agent.llm import get_llm
 from app.agent.tools import search_trails_tool
@@ -31,3 +32,9 @@ def ask(message: str) -> str:
     agent = build_agent()
     result = agent.invoke({"messages": [{"role": "user", "content": message}]})
     return result["messages"][-1].content
+
+def stream_answer(messages: list[dict]):
+    agent = build_agent()
+    for chunk, metadata in agent.stream({"messages": messages}, stream_mode="messages"):
+        if isinstance(chunk, AIMessageChunk) and chunk.content:
+            yield chunk.content
