@@ -30,3 +30,9 @@ class TrailFilters(BaseModel):
         description="Only set it if the user explicitly asks for a loop or a one-way trail. Otherwise leave it empty",
     )
     needs_hut: bool = Field(default=False, description="True if the user wants a mountain hut on the way")
+
+class SearchTrailsInput(TrailFilters):
+    date: str | None = Field(
+        default=None,
+        description="Date of the hike in YYYY-MM-DD format. Only set it if the user mentions a day (e.g. 'domani', 'sabato')",
+    )
