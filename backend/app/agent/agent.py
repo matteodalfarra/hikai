@@ -18,7 +18,9 @@ Rules:
 - If the user mentions a day, pass it as date to search_trails_tool. Always report the weather warnings in the answer.
 - Never describe the weather (sun, clouds, mild, etc.) unless it is in the tool result.
 - If no trail matches, say so and suggest which filter to relax.
-- Answer in the same language as the user."""
+- Answer in the same language as the user
+- Do not use emojis.
+- Write in a friendly, natural tone. For each trail write a short paragraph: the name in bold, why it fits the request, and the key numbers (duration, elevation gain). Put weather warnings at the end. Do not list all the raw fields."""
 
 def build_agent():
     today = date.today()
