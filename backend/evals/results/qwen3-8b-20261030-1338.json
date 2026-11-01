@@ -1,0 +1,164 @@
+[
+  {
+    "id": "half-day-loop-hut",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "tre-cime-loop",
+      "cinque-torri-loop"
+    ],
+    "latency_s": 18.74,
+    "input_tokens": 1285,
+    "output_tokens": 371,
+    "answer": "Ecco due giri ad anello adatti alle tue richieste:\n\n1. **Tre Cime di Lavaredo loop**  \n   - **Area**: Tre Cime / Sesto Dolomites  \n   - **Durata**: 4 ore (240 minuti)  \n   - **Dislivello**: 400 metri  \n   - **Rifugi**: Rifugio Auronzo, Rifugio Lavaredo, Rifugio Locatelli  \n   - **Descrizione**: Un classico giro attorno alle Tre Cime, con una vista mozzafiato della faccia nord delle Tre Cime. Ideale per un pranzo al rifugio.\n\n2. **Cinque Torri loop**  \n   - **Area**: Cortina / Cinque Torri  \n   - **Durata**: 1.5 ore (90 minuti)  \n   - **Dislivello**: 150 metri  \n   - **Rifugi**: Rifugio Scoiattoli, Rifugio Cinque Torri  \n   - **Descrizione**: Un giro breve e panoramico attorno alle Cinque Torri, con un museo all'aperto dedicato alla Prima Guerra Mondiale. Accessibile con la seggiovia.\n\nEntrambi i giri soddisfano le tue richieste di mezza giornata, poco dislivello e presenza di un rifugio per il pranzo."
+  },
+  {
+    "id": "beginner-ferrata",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [],
+    "latency_s": 6.21,
+    "input_tokens": 1009,
+    "output_tokens": 142,
+    "answer": "Mi dispiace, non ho trovato via ferrate adatte al tuo livello di esperienza in Sella. Le via ferrate (EEA) sono molto impegnative e potrebbero non essere sicure per un principiante. Ti consiglio di limitare la difficoltà a \"E\" (hiking) per trovare percorsi più adatti al tuo livello. Vorresti provare a cercare qualcosa di più facile?"
+  },
+  {
+    "id": "unknown-experience-ferrata",
+    "answer_ok": true,
+    "filters_ok": false,
+    "passed": false,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [
+      "is_loop"
+    ],
+    "mentioned_trails": [],
+    "latency_s": 4.65,
+    "input_tokens": 987,
+    "output_tokens": 104,
+    "answer": "Non è stato trovato nessun percorso di ferrata in zona Sella con i filtri attuali. Potresti specificare se hai un'esperienza pregressa in attività di questo tipo? Questo mi aiuterebbe a suggerirti un percorso più adatto."
+  },
+  {
+    "id": "expert-ferrata",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "piz-boe-sass-pordoi",
+      "ferrata-brigata-tridentina"
+    ],
+    "latency_s": 14.45,
+    "input_tokens": 1227,
+    "output_tokens": 331,
+    "answer": "Ecco due ferrate adatte alle tue esigenze in zona Sella:\n\n1. **Via ferrata Brigata Tridentina**  \n   - Difficoltà: EEA (via ferrata)  \n   - Durata: 4,5 ore  \n   - Guadagno di quota: 650 metri  \n   - Descrizione: Una via ferrata popolare vicino a Passo Gardena, che porta al Rifugio Pisciadu e si conclude con un percorso attraverso Val Setus. Richiede attrezzatura specifica e un certo livello di esperienza.\n\n2. **Piz Boe from Sass Pordoi**  \n   - Difficoltà: EE (expert)  \n   - Durata: 3 ore  \n   - Guadagno di quota: 350 metri  \n   - Descrizione: Un percorso che parte dal funiviale di Sass Pordoi per raggiungere il 3152 m di Piz Boe. Include terreni rocciosi e alcuni elementi di arrampicata facile.\n\nEntrambi i percorsi sono adatti al tuo livello di esperienza e si svolgono in zona Sella. Scegli in base al tempo che hai a disposizione e al tipo di esperienza che desideri."
+  },
+  {
+    "id": "vague-request",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [],
+    "latency_s": 1.3,
+    "input_tokens": 453,
+    "output_tokens": 27,
+    "answer": "Puoi dirmi qual è il tuo livello di esperienza e la durata della camminata che preferisci?"
+  },
+  {
+    "id": "family-easy",
+    "answer_ok": true,
+    "filters_ok": false,
+    "passed": false,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [
+      "max_elevation_gain_m"
+    ],
+    "mentioned_trails": [
+      "lago-di-braies-loop",
+      "lago-di-carezza"
+    ],
+    "latency_s": 12.45,
+    "input_tokens": 1185,
+    "output_tokens": 285,
+    "answer": "Ecco due passeggiate facili adatte ai bambini, che si possono completare in un'ora e mezza:\n\n1. **Lago di Braies lake loop**  \n   - **Area:** Braies  \n   - **Difficoltà:** T (facile)  \n   - **Durata:** 75 minuti  \n   - **Salita:** 100 metri  \n   - **Descrizione:** Un giro facile attorno al lago, quasi pianeggiante. Ideale per famiglie e principianti. Tuttavia, è molto affollato in estate.\n\n2. **Lago di Carezza short walk**  \n   - **Area:** Latemar  \n   - **Difficoltà:** T (facile)  \n   - **Durata:** 30 minuti  \n   - **Salita:** 20 metri  \n   - **Descrizione:** Un breve giro attorno a un piccolo lago con il Latemar come sfondo. Adatto a tutti, perfetto per un'escursione breve e rilassata."
+  },
+  {
+    "id": "cortina-hut",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "lago-di-sorapis",
+      "cinque-torri-loop"
+    ],
+    "latency_s": 12.8,
+    "input_tokens": 1227,
+    "output_tokens": 291,
+    "answer": "Ecco due escursioni in zona Cortina che includono un rifugio:\n\n1. **Lago di Sorapis from Passo Tre Croci**  \n   - **Difficoltà**: E (hiking)  \n   - **Durata**: 4 ore (240 minuti)  \n   - **Salita**: 450 metri  \n   - **Descrizione**: Escursione ad andata e ritorno verso un lago di colore turquosone, con un breve tratto esposto ma con cavi di sicurezza. Include il Rifugio Vandelli.  \n\n2. **Cinque Torri loop**  \n   - **Difficoltà**: E (hiking)  \n   - **Durata**: 1.5 ore (90 minuti)  \n   - **Salita**: 150 metri  \n   - **Descrizione**: Piccolo giro attorno alle Cinque Torri, con un museo della Prima Guerra Mondiale all'aperto. Include i Rifugi Scoiattoli e Cinque Torri.  \n\nSe preferisci un'escursione più breve o più impegnativa, fammelo sapere!"
+  },
+  {
+    "id": "val-gardena-short",
+    "answer_ok": true,
+    "filters_ok": false,
+    "passed": false,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [
+      "max_difficulty",
+      "max_elevation_gain_m"
+    ],
+    "mentioned_trails": [
+      "seceda-col-raiser"
+    ],
+    "latency_s": 11.18,
+    "input_tokens": 1111,
+    "output_tokens": 255,
+    "answer": "Ecco una suggestione di escursione panoramica in Val Gardena che si adatta al tuo tempo massimo di 3 ore:\n\n1. **Seceda to Col Raiser**  \n   - **Durata:** 150 minuti  \n   - **Difficoltà:** E (hiking)  \n   - **Salita:** 150 metri  \n   - **Descrizione:** Parti con il funiviale da Seceda per goderti le viste panoramiche del massiccio dell’Odle. Poi scendi attraverso prati e boschi fino a Col Raiser. È un percorso principalmente in discesa, ideale per godersi la natura senza fatica eccessiva.\n\nQuesto itinerario è perfetto per godersi panorami mozzafiato in un tempo limitato. Se desideri un'alternativa, posso suggerirtene altre!"
+  },
+  {
+    "id": "expert-summit",
+    "answer_ok": false,
+    "filters_ok": false,
+    "passed": false,
+    "trails_ok": false,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [
+      "area",
+      "max_duration_min",
+      "max_elevation_gain_m"
+    ],
+    "mentioned_trails": [
+      "tre-cime-loop"
+    ],
+    "latency_s": 12.08,
+    "input_tokens": 1185,
+    "output_tokens": 274,
+    "answer": "Ecco una proposta di escursione adatta alle tue esigenze:\n\n1. **Tre Cime di Lavaredo loop**  \n   - **Area**: Tre Cime / Sesto Dolomites  \n   - **Difficoltà**: E (hiking)  \n   - **Durata**: 4 ore (240 minuti)  \n   - **Salita**: 400 metri  \n   - **Descrizione**: Un classico giro attorno alle Tre Cime di Lavaredo, con una vista mozzafiato della faccia nord delle cime. Passa vicino al Rifugio Locatelli e include il Rifugio Auronzo e il Rifugio Lavaredo.\n\nQuesto percorso è adatto per chi ha esperienza di base, ma se sei un escursionista esperto, potremmo cercare un itinerario più impegnativo. Vorresti informazioni su altre escursioni più difficili?"
+  }
+]

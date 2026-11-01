@@ -1,0 +1,176 @@
+[
+  {
+    "id": "half-day-loop-hut",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "tre-cime-loop",
+      "cinque-torri-loop"
+    ],
+    "latency_s": 28.8,
+    "input_tokens": 1721,
+    "output_tokens": 300,
+    "answer": "**Tre Cime di Lavaredo loop**  \nQuesto percorso ad anello è perfetto per una mezza giornata, con un dislivello moderato e la possibilità di pranzare in uno dei rifugi lungo il tragitto, come Rifugio Auronzo, Rifugio Lavaredo o Rifugio Locatelli. La durata è di circa 4 ore, e offre panorami spettacolari sulle Tre Cime di Lavaredo.  \n\n**Cinque Torri loop**  \nUn’opzione ideale se cerchi un’escursione breve e poco impegnativa. Questo anello intorno alle Cinque Torri ha un dislivello minimo e una durata di circa 1,5 ore. È possibile pranzare nei rifugi vicini, come Rifugio Scoiattoli o Rifugio Cinque Torri, e offre una vista unica sulle torri e sul museo all’aperto dedicato alla Prima Guerra Mondiale.  \n\n**Avviso meteorologico:** Non sono state segnalate condizioni meteorologiche particolari per questa data."
+  },
+  {
+    "id": "beginner-ferrata",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [],
+    "latency_s": 10.71,
+    "input_tokens": 1418,
+    "output_tokens": 142,
+    "answer": "Mi dispiace, non ci sono vie ferrate adatte ai principianti nell'area di Sella con difficoltà EE. Le vie ferrate EE richiedono un livello di esperienza e attrezzatura specifiche che non sono adatte ai principianti. Ti consiglio di considerare vie ferrate con difficoltà inferiore, come quelle con difficoltà E. Se desideri, posso aiutarti a trovare opzioni più adatte."
+  },
+  {
+    "id": "unknown-experience-ferrata",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [],
+    "latency_s": 6.27,
+    "input_tokens": 1404,
+    "output_tokens": 80,
+    "answer": "Sei un principiante? Posso suggerirti alcune ferrate più semplici o, se hai esperienza, anche quelle più impegnative."
+  },
+  {
+    "id": "expert-ferrata",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "piz-boe-sass-pordoi",
+      "ferrata-brigata-tridentina"
+    ],
+    "latency_s": 22.87,
+    "input_tokens": 1668,
+    "output_tokens": 299,
+    "answer": "**Via ferrata Brigata Tridentina**  \nQuesta ferrata è perfetta per un esperto, poiché si classifica come EEA (via ferrata) e richiede attrezzatura specifica e esperienza. Si sviluppa lungo la Val Setus, con un guadagno di quota di 650 metri e una durata di circa 4 ore e 30 minuti. È un percorso impegnativo ma molto apprezzato per la bellezza del paesaggio circostante.\n\n**Piz Boe da Sass Pordoi**  \nSebbene non sia una via ferrata, questa escursione è adatta a esperti grazie alla sua difficoltà EE (esperto) e alla presenza di terreni rocciosi e scalini. Si sviluppa in un'area di alta montagna, con un picco massimo di 3152 metri e una durata di 3 ore. È un'esperienza unica per chi ama l'escursionismo impegnativo.\n\n**Avviso meteorologico:** Non sono presenti avvisi meteorologici per questa data."
+  },
+  {
+    "id": "vague-request",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [],
+    "latency_s": 3.96,
+    "input_tokens": 659,
+    "output_tokens": 52,
+    "answer": "Certo! Potresti dirmi se hai un'idea specifica per la durata, la difficoltà o l'area in cui vorresti camminare? In questo modo posso suggerirti le migliori escursioni."
+  },
+  {
+    "id": "family-easy",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "lago-di-braies-loop",
+      "lago-di-carezza"
+    ],
+    "latency_s": 18.74,
+    "input_tokens": 1616,
+    "output_tokens": 242,
+    "answer": "**Lago di Braies lake loop**  \nQuesto percorso è perfetto per una passeggiata facile con i bambini. Si tratta di un giro intorno al lago, quasi completamente pianeggiante, che richiede solo 75 minuti e un guadagno di quota di 100 metri. È adatto a principianti e famiglie, anche se potrebbe essere affollato in estate.\n\n**Lago di Carezza short walk**  \nUn’alternativa breve e semplice, ideale se avete poco tempo. Questo percorso intorno al lago di Carezza dura solo 30 minuti e ha un guadagno di quota di 20 metri. È perfetto per tutti, grazie alla sua brevità e alla bellezza del paesaggio circostante.\n\nNon ci sono avvisi meteorologici per questa data."
+  },
+  {
+    "id": "cortina-hut",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "lago-di-sorapis",
+      "cinque-torri-loop"
+    ],
+    "latency_s": 23.85,
+    "input_tokens": 1663,
+    "output_tokens": 307,
+    "answer": "**Lago di Sorapis da Passo Tre Croci**  \nQuesto percorso è perfetto per chi cerca un'escursione con un rifugio e una vista spettacolare. Si tratta di un percorso di andata e ritorno che porta al bellissimo Lago di Sorapis, con un'escursione di 4 ore e un guadagno di quota di 450 metri. Lungo il percorso si attraversa il Rifugio Vandelli, un punto ideale per una pausa.  \n\n**Cinque Torri loop**  \nSe preferisci un'escursione più breve e adatta a tutti i livelli, il Cinque Torri loop è una scelta eccellente. Si tratta di un percorso in loop di circa 1h30, con un guadagno di quota di 150 metri. Lungo il percorso si possono visitare il Rifugio Scoiattoli e il Rifugio Cinque Torri, e si ha l'opportunità di ammirare le famose Cinque Torri e il museo all'aperto dedicato alla Prima Guerra Mondiale.  \n\nNon ci sono avvisi meteorologici per questa giornata."
+  },
+  {
+    "id": "val-gardena-short",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "seceda-col-raiser"
+    ],
+    "latency_s": 10.36,
+    "input_tokens": 1519,
+    "output_tokens": 126,
+    "answer": "**Seceda to Col Raiser**  \nThis trail offers stunning panoramic views of the Odle ridge and is perfect for a short, scenic hike. It takes about 2.5 hours and involves minimal elevation gain, making it ideal for a relaxed walk. The trail starts at Seceda, where you can take the cable car, and ends at Col Raiser, passing through beautiful meadows.  \n\nWeather warning: No weather warnings for this trail."
+  },
+  {
+    "id": "expert-summit",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "piz-boe-sass-pordoi"
+    ],
+    "latency_s": 15.77,
+    "input_tokens": 1549,
+    "output_tokens": 199,
+    "answer": "**Piz Boe from Sass Pordoi**  \nQuesto percorso è perfetto per un escursionista esperto che desidera raggiungere una cima sopra i 3000 metri. La vetta del Piz Boe si trova a 3152 metri e offre una vista panoramica eccezionale. La difficoltà è EE, adatta a chi ha esperienza, e richiede circa 3 ore di cammino con un guadagno di quota di 350 metri. Lungo il percorso si possono visitare due rifugi, il Rifugio Forcella Pordoi e la Capanna Fassa.\n\nNon ci sono avvisi meteorologici per questa data."
+  },
+  {
+    "id": "saturday-easy-couple",
+    "answer_ok": true,
+    "filters_ok": false,
+    "passed": false,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [
+      "max_duration_min",
+      "max_elevation_gain_m"
+    ],
+    "mentioned_trails": [
+      "tre-cime-loop",
+      "lago-di-braies-loop",
+      "lago-di-carezza",
+      "seceda-col-raiser"
+    ],
+    "latency_s": 39.19,
+    "input_tokens": 2399,
+    "output_tokens": 443,
+    "answer": "**Tre Cime di Lavaredo loop**  \nQuesto percorso è perfetto per una giornata semplice e panoramica. Si tratta di un itinerario in loop che circonda le famose Tre Cime di Lavaredo, con viste spettacolari, in particolare vicino al Rifugio Locatelli. La durata è di circa 4 ore, con un guadagno di quota di 400 metri, ideale per principianti.  \n\n**Lago di Braies loop**  \nSe preferisci un’escursione più breve e tranquilla, il giro intorno al Lago di Braies è un’ottima scelta. Si tratta di un percorso semplice, quasi pianeggiante, che ti permette di godere della bellezza del lago e del paesaggio circostante. La durata è di circa 1 ora e 15 minuti, con un guadagno di quota di soli 100 metri.  \n\n**Lago di Carezza short walk**  \nSe hai poco tempo ma non vuoi rinunciare alla bellezza delle Dolomiti, il breve percorso intorno al Lago di Carezza è perfetto. Si tratta di una passeggiata di circa 30 minuti, con un guadagno di quota di 20 metri, ideale per tutti i livelli.  \n\n**Avviso meteorologico:**  \nSul percorso Tre Cime di Lavaredo loop e Seceda-Col Raiser, le temperature potrebbero scendere sotto lo zero, quindi è consigliabile portare abiti caldi e attrezzatura adatta per eventuali condizioni di ghiaccio."
+  }
+]

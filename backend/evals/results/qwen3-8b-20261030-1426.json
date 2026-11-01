@@ -1,0 +1,162 @@
+[
+  {
+    "id": "half-day-loop-hut",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "tre-cime-loop",
+      "cinque-torri-loop"
+    ],
+    "latency_s": 20.81,
+    "input_tokens": 1389,
+    "output_tokens": 423,
+    "answer": "Ecco due suggerimenti di giri ad anello adatti alle tue richieste:\n\n1. **Tre Cime di Lavaredo loop**  \n   - **Area**: Tre Cime / Sesto Dolomites  \n   - **Difficoltà**: E (hiking)  \n   - **Durata**: 4 ore (240 minuti)  \n   - **Dislivello**: 400 metri  \n   - **Rifugi**: Rifugio Auronzo, Rifugio Lavaredo, Rifugio Locatelli  \n   - **Descrizione**: Un classico giro ad anello intorno alle Tre Cime, con una vista mozzafiato della faccia nord delle Tre Cime. Ideale per un pranzo al rifugio.\n\n2. **Cinque Torri loop**  \n   - **Area**: Cortina / Cinque Torri  \n   - **Difficoltà**: E (hiking)  \n   - **Durata**: 1.5 ore (90 minuti)  \n   - **Dislivello**: 150 metri  \n   - **Rifugi**: Rifugio Scoiattoli, Rifugio Cinque Torri  \n   - **Descrizione**: Un giro breve e panoramico intorno alle Cinque Torri, con la possibilità di visitare un museo a cielo aperto dedicato alla Prima Guerra Mondiale. Accessibile con la seggiovia.\n\nEntrambi i giri soddisfano le tue richieste di mezza giornata, poco dislivello e presenza di un rifugio per il pranzo. Scegli il più adatto al tuo interesse!"
+  },
+  {
+    "id": "beginner-ferrata",
+    "answer_ok": true,
+    "filters_ok": false,
+    "passed": false,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [
+      "is_loop"
+    ],
+    "mentioned_trails": [],
+    "latency_s": 12.92,
+    "input_tokens": 1088,
+    "output_tokens": 311,
+    "answer": "Mi dispiace, non ho trovato via ferrate adatte al tuo livello di esperienza in Sella. Le via ferrate (EEA) sono molto impegnative e potrebbero non essere sicure per un principiante.\n\nTi consiglio di considerare sentieri di difficoltà E (hiking), che sono più adatti al tuo livello. Ecco alcune opzioni in Sella:\n\n1. **Sentiero del Piz da Sella** – È un percorso di media difficoltà, adatto a chi ha esperienza base. Offre panorami spettacolari e un'esperienza di hiking soddisfacente.\n2. **Sentiero del Sasso di Sella** – Un itinerario che si snoda tra le splendide formazioni rocciose, ideale per chi cerca un'escursione tranquilla ma coinvolgente.\n3. **Sentiero del Monte Civetta** – Se sei interessato a un'escursione un po' più impegnativa, questo sentiero offre una bella panoramica e un'esperienza di hiking soddisfacente.\n\nSe ti interessa, posso aiutarti a trovare altre opzioni in base alle tue preferenze!"
+  },
+  {
+    "id": "unknown-experience-ferrata",
+    "answer_ok": true,
+    "filters_ok": false,
+    "passed": false,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [
+      "is_loop"
+    ],
+    "mentioned_trails": [],
+    "latency_s": 5.32,
+    "input_tokens": 1067,
+    "output_tokens": 123,
+    "answer": "Non è stato trovato nessun percorso di ferrata in zona Sella con i filtri attuali. Potresti specificare il livello di esperienza o se preferisci un percorso più facile (difficoltà E) o più impegnativo (difficoltà EEA)? Questo mi aiuterà a trovare un'opzione più adatta a te."
+  },
+  {
+    "id": "expert-ferrata",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "piz-boe-sass-pordoi",
+      "ferrata-brigata-tridentina"
+    ],
+    "latency_s": 13.63,
+    "input_tokens": 1331,
+    "output_tokens": 315,
+    "answer": "Ecco due ferrate adatte alle tue esigenze in zona Sella:\n\n1. **Via ferrata Brigata Tridentina**  \n   - Difficoltà: EEA (adatta a un esperto)  \n   - Durata: circa 4,5 ore  \n   - Elevazione: 2585 m  \n   - Descrizione: Una via ferrata popolare vicino a Passo Gardena, che porta al Rifugio Pisciadu e si conclude con un percorso attraverso Val Setus. Richiede attrezzatura specifica e esperienza.\n\n2. **Piz Boe from Sass Pordoi**  \n   - Difficoltà: EE (hiking con alcuni elementi di arrampicata)  \n   - Durata: circa 3 ore  \n   - Elevazione: 3152 m  \n   - Descrizione: Partendo dal funiviale di Sass Pordoi, si raggiunge il punto più alto del percorso, con terreni rocciosi e alcuni elementi di arrampicata leggera. Include due rifugi lungo il tragitto.\n\nEntrambi i percorsi sono ideali per un esperto e offrono un'esperienza unica in zona Sella."
+  },
+  {
+    "id": "vague-request",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [],
+    "latency_s": 1.19,
+    "input_tokens": 493,
+    "output_tokens": 25,
+    "answer": "Puoi dirmi qual è il livello di difficoltà che preferisci e la durata della camminata?"
+  },
+  {
+    "id": "family-easy",
+    "answer_ok": true,
+    "filters_ok": false,
+    "passed": false,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [
+      "is_loop"
+    ],
+    "mentioned_trails": [
+      "lago-di-braies-loop",
+      "lago-di-carezza"
+    ],
+    "latency_s": 13.13,
+    "input_tokens": 1284,
+    "output_tokens": 304,
+    "answer": "Ecco due passeggiate facili adatte ai bambini, che si possono completare in un'ora e mezza:\n\n1. **Lago di Braies lake loop**  \n   - **Area:** Braies  \n   - **Difficoltà:** T (facile)  \n   - **Durata:** 75 minuti  \n   - **Salita:** 100 metri  \n   - **Descrizione:** Una passeggiata circolare attorno al lago, quasi pianeggiante. Ideale per famiglie e principianti. Tuttavia, è molto affollata in estate.\n\n2. **Lago di Carezza short walk**  \n   - **Area:** Latemar  \n   - **Difficoltà:** T (facile)  \n   - **Durata:** 30 minuti  \n   - **Salita:** 20 metri  \n   - **Descrizione:** Una breve passeggiata attorno a un piccolo lago con il Latemar come sfondo. Molto adatta a tutti, inclusi i bambini.\n\nSono entrambe ideali per una passeggiata rilassata e divertente con i bambini!"
+  },
+  {
+    "id": "cortina-hut",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "lago-di-sorapis",
+      "cinque-torri-loop"
+    ],
+    "latency_s": 13.1,
+    "input_tokens": 1331,
+    "output_tokens": 302,
+    "answer": "Ecco due escursioni in zona Cortina che includono un rifugio:\n\n1. **Lago di Sorapis from Passo Tre Croci**  \n   - **Difficoltà**: E (hiking)  \n   - **Durata**: 4 ore (240 minuti)  \n   - **Salita**: 450 metri  \n   - **Descrizione**: Escursione in andata e ritorno verso un lago di colore turquosone, con un breve tratto esposto ma non pericoloso. Il percorso include il Rifugio Vandelli.  \n\n2. **Cinque Torri loop**  \n   - **Difficoltà**: E (hiking)  \n   - **Durata**: 1.5 ore (90 minuti)  \n   - **Salita**: 150 metri  \n   - **Descrizione**: Escursione in loop intorno alle Cinque Torri, con un museo della Prima Guerra Mondiale. Il percorso include i Rifugi Scoiattoli e Cinque Torri.  \n\nEntrambe le escursioni sono ideali se desideri un'esperienza con un rifugio e un panorama mozzafiato!"
+  },
+  {
+    "id": "val-gardena-short",
+    "answer_ok": true,
+    "filters_ok": false,
+    "passed": false,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [
+      "max_difficulty",
+      "max_elevation_gain_m"
+    ],
+    "mentioned_trails": [
+      "seceda-col-raiser"
+    ],
+    "latency_s": 12.34,
+    "input_tokens": 1209,
+    "output_tokens": 289,
+    "answer": "Ecco una suggestione di escursione panoramica in Val Gardena che si adatta al tuo tempo massimo di 3 ore:\n\n1. **Seceda a Col Raiser**  \n   - **Durata**: Circa 2.5 ore (150 minuti)  \n   - **Difficoltà**: E (hiking)  \n   - **Salita**: 150 metri  \n   - **Descrizione**: Parti con il funiviale da Seceda per goderti le viste panoramiche del gruppo delle Pale di San Martino. Poi scendi attraverso i prati fino a Col Raiser, dove troverai un rifugio. È un percorso principalmente in discesa, ideale per godersi la natura senza fatica eccessiva.\n\nQuesto itinerario è perfetto per godersi panorami mozzafiato in un tempo limitato. Se hai bisogno di ulteriori dettagli o di altre opzioni, fammelo sapere! 🏔️"
+  },
+  {
+    "id": "expert-summit",
+    "answer_ok": true,
+    "filters_ok": true,
+    "passed": true,
+    "trails_ok": true,
+    "safe": true,
+    "question_ok": true,
+    "invented_filters": [],
+    "mentioned_trails": [
+      "piz-boe-sass-pordoi"
+    ],
+    "latency_s": 8.48,
+    "input_tokens": 1223,
+    "output_tokens": 194,
+    "answer": "Hai trovato una bella escursione adatta alle tue esigenze! Ecco una suggerimento:\n\n1. **Piz Boe from Sass Pordoi** – Questo percorso è adatto per escursionisti esperti e ti porterà in cima a Piz Boe (3152 m) nella zona della Sella. È un'escursione di media difficoltà (EE), con un'ascesa di circa 350 metri e una durata di circa 3 ore. Il percorso include alcuni elementi di arrampicata facile, ideali per mettere alla prova le tue capacità.\n\nBuona escursione! 🏔️"
+  }
+]

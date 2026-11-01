@@ -1,0 +1,37 @@
+from typing import Literal
+
+from pydantic import BaseModel, Field
+
+from app.schemas.trail import Difficulty
+
+class TrailFilters(BaseModel):
+    experience: Literal["beginner", "intermediate", "expert"] | None = Field(
+        default=None,
+        description="Hiking experience of the user, if mentioned. Always in English: translate it (e.g. 'principiante' -> 'beginner')",
+    )
+    max_difficulty: Difficulty | None = Field(
+        default=None, description="Max CAI difficulty: T (easy), E (hiking), EE (expert), EEA (via ferrata)"
+    )
+    max_duration_min: int | None = Field(
+        default=None, description="Max total duration in minutes. Half day is about 240"
+    )
+    max_elevation_gain_m: int | None = Field(
+        default=None, description="Max elevation gain in meters. 'Not much' is about 400"
+    )
+    min_altitude_m: int | None = Field(
+        default=None,
+        description="Min altitude in meters that the trail must reach. Only set it if the user mentions a height, e.g. 'above 3000 m'",
+    )
+    area: str | None = Field(
+        default=None, description="Area name. Only set it if the user explicitly names a place"
+    )
+    loop_only: bool = Field(
+        default=False, description="True only if the user explicitly asks for a loop trail"
+    )
+    needs_hut: bool = Field(default=False, description="True if the user wants a mountain hut on the way")
+
+class SearchTrailsInput(TrailFilters):
+    date: str | None = Field(
+        default=None,
+        description="Date of the hike in YYYY-MM-DD format. Only set it if the user mentions a day (e.g. 'domani', 'sabato')",
+    )
