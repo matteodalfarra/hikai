@@ -25,9 +25,8 @@ class TrailFilters(BaseModel):
     area: str | None = Field(
         default=None, description="Area name. Only set it if the user explicitly names a place"
     )
-    is_loop: bool | None = Field(
-        default=None,
-        description="Only set it if the user explicitly asks for a loop or a one-way trail. Otherwise leave it empty",
+    loop_only: bool = Field(
+        default=False, description="True only if the user explicitly asks for a loop trail"
     )
     needs_hut: bool = Field(default=False, description="True if the user wants a mountain hut on the way")
 

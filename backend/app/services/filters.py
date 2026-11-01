@@ -35,7 +35,7 @@ def search_trails(trails: list[Trail], filters: TrailFilters) -> list[Trail]:
             continue
         if filters.area is not None and filters.area.lower() not in trail.area.lower():
             continue
-        if filters.is_loop is not None and trail.is_loop != filters.is_loop:
+        if filters.loop_only and not trail.is_loop:
             continue
         if filters.needs_hut and not trail.hut_names:
             continue
