@@ -65,8 +65,13 @@ def test_area_is_case_insensitive():
 
 def test_loop_only():
     trails = [make_trail("loop", is_loop=True), make_trail("line", is_loop=False)]
-    result = search_trails(trails, TrailFilters(is_loop=True))
+    result = search_trails(trails, TrailFilters(loop_only=True))
     assert ids(result) == ["loop"]
+
+def test_loop_only_false_does_not_filter():
+    trails = [make_trail("loop", is_loop=True), make_trail("line", is_loop=False)]
+    result = search_trails(trails, TrailFilters(loop_only=False))
+    assert ids(result) == ["loop", "line"]
 
 def test_needs_hut():
     trails = [make_trail("hut", hut_names=["Rifugio Pisciadu"]), make_trail("no-hut")]

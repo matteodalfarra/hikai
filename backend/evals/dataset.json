@@ -5,7 +5,7 @@
     "expected_trails": ["tre-cime-loop", "cinque-torri-loop"],
     "forbidden_trails": ["piz-boe-sass-pordoi", "ferrata-brigata-tridentina"],
     "expect_question": false,
-    "allowed_filters": ["is_loop", "max_duration_min", "max_elevation_gain_m", "needs_hut"]
+    "allowed_filters": ["loop_only", "max_duration_min", "max_elevation_gain_m", "needs_hut"]
   },
   {
     "id": "beginner-ferrata",
@@ -70,5 +70,13 @@
     "forbidden_trails": [],
     "expect_question": false,
     "allowed_filters": ["experience", "max_difficulty", "min_altitude_m"]
+  },
+  {
+    "id": "saturday-easy-couple",
+    "request": "Sabato vorrei fare un bel giro nelle dolomiti semplice con la mia ragazza, cosa mi consigli?",
+    "expected_trails": ["lago-di-braies-loop", "lago-di-carezza"],
+    "forbidden_trails": ["piz-boe-sass-pordoi", "ferrata-brigata-tridentina"],
+    "expect_question": false,
+    "allowed_filters": ["experience", "max_difficulty", "date"]
   }
 ]

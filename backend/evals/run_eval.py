@@ -34,8 +34,8 @@ def get_used_filters(messages: list) -> set[str]:
             continue
         for call in message.tool_calls:
             for key, value in call["args"].items():
-                if value is None or (key == "needs_hut" and value is False):
-                    continue
+                if value is None or (key in ("needs_hut", "loop_only") and value is False):
+                    continue                
                 used.add(key)
     return used
 
